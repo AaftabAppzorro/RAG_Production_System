@@ -1,46 +1,20 @@
-# Enterprise Document Intelligence Assistant (RAG)
 
-## 🚀 Overview
-Production-style Retrieval-Augmented Generation system built with:
-- ASP.NET Core 8
-- Semantic Kernel
-- Azure OpenAI
-- Azure AI Search
-- SQL Server
+# AI-Driven Workflow Automation Engine (Production)
 
----
+## Features
+- Semantic Kernel Plugin Architecture
+- Azure OpenAI Function Calling
+- Role-Based Access (JWT)
+- Audit Logging (SQL Server)
+- Docker Support
+- Clean Architecture Structure
 
-## 🏗 Architecture
-![Architecture](docs/architecture.png)
+## Run
 
----
+1. Copy `.env.example` → `.env`
+2. Fill Azure OpenAI + JWT secret
+3. Run:
+   docker-compose up --build
 
-## 🔄 RAG Flow
-1. Document Upload
-2. Chunking
-3. Embedding Generation
-4. Vector Indexing
-5. Context Retrieval
-6. LLM Response Generation
-7. Token Logging
-
----
-
-## 🔐 Security
-- Secure configuration via environment variables
-- Role-based access
-- Token usage monitoring
-
----
-
-## 📊 Cost Monitoring
-Tracks:
-- Prompt tokens
-- Completion tokens
-- Estimated cost
-
----
-
-## 🐳 Run with Docker
-
-docker-compose up --build
+Swagger:
+http://localhost:6000/swagger
