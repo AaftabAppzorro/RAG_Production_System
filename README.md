@@ -11,7 +11,7 @@ Production-style Retrieval-Augmented Generation system built with:
 ---
 
 ## 🏗 Architecture
-![Architecture](docs/architecture.png)
+![Architecture](architecture.jpg)
 
 ---
 
